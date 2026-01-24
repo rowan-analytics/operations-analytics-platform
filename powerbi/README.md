@@ -1,12 +1,21 @@
 # Power BI Dashboards
 
-This folder contains screenshots and documentation for Power BI dashboards
-built as part of the Operations Analytics Platform.
+This section contains selected Power BI dashboard screenshots from the
+Operations Analytics Platform. Dashboards are designed to support
+operational monitoring and management decision-making.
 
-Dashboards focus on:
-- Revenue and order volume trends
-- On-time delivery performance
-- Operational KPIs for decision support
+## Dockyard Performance Dashboard
 
-Power BI files are not uploaded directly.
-Screenshots and metric explanations are provided for review.
+### What this dashboard shows
+- Distribution of operational case types (Accidents, Incidents, Near Misses, SHEP Observations)
+- Headline KPIs to monitor volume and exposure
+- Breakdown of cases by location and unit in charge
+- Influencing factors analysis to identify higher-risk locations
+
+### Decisions this dashboard supports
+- Identifying locations with elevated incident likelihood
+- Prioritising safety and operational interventions
+- Monitoring trends in operational risk over time
+- Supporting management review and reporting
+
+> Note: Dashboard uses anonymised or representative data for portfolio purposes.
