@@ -1,23 +1,44 @@
-# SQL Retail Sales Analytics
+# Retail Sales SQL Analytics
 
-End-to-end SQL analytics project using transactional retail data.
+End-to-end SQL analytics project using transactional retail sales data.
 
-## Objectives
-- Explore raw sales data
-- Clean transactional records
-- Generate business KPIs
-- Perform customer & product analysis
-- Build monthly revenue time-series datasets
+This project demonstrates how raw sales data can be transformed into
+business insights using SQL including:
 
-## Tools
-- SQL (SQLite)
-- DBeaver
-- Aggregations
-- Window Functions
-- Time-based Analysis
+• Data exploration  
+• Data cleaning  
+• KPI generation  
+• Customer analysis  
+• Product performance analysis  
+• Time-series revenue trends  
+• Automated reporting views
 
-## Business Outputs
-- Revenue reporting
-- Customer segmentation
-- Product performance insights
-- Dashboard-ready datasets
+
+## Dataset
+
+Online Retail transactional dataset containing:
+
+• 541,909 rows  
+• 25,900 orders  
+• 4,373 customers  
+• Product sales from 2010–2011
+
+Fields include:
+
+InvoiceNo  
+StockCode  
+Description  
+Quantity  
+InvoiceDate  
+UnitPrice  
+CustomerID  
+Country
+
+
+
+## Key Insights
+
+• Revenue peaked in November 2011 due to seasonal demand
+• A small group of customers generate a large share of revenue
+• Several products dominate total sales volume
+• Returns are visible as negative quantities in the dataset
