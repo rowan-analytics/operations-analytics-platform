@@ -1,0 +1,20 @@
+## Customer Insights
+
+![Customer Insights](Customer Insights.png)
+
+This dashboard focuses on understanding customer purchasing behaviour and identifying key revenue contributors.
+
+Using the transformed SQL retail dataset in Power BI, I analysed customer order patterns, revenue contribution, and concentration of sales among high-value customers.
+
+Key insights explored in this dashboard include:
+
+• Distribution of customer orders to identify purchasing patterns  
+• Revenue vs order frequency to detect high-value customers  
+• Identification of the top customers driving a large portion of total revenue  
+
+The analysis highlights that revenue is highly concentrated among a small number of customers, with the top customers contributing a significant share of total sales.
+
+This type of analysis helps businesses identify:
+- high-value customers
+- potential VIP segments
+- opportunities for targeted marketing or retention strategies
