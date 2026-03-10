@@ -11,6 +11,8 @@ zscore(srcvalue, lenvalue) =>
     stdev = ta.stdev(srcvalue, lenvalue) 
     (srcvalue - mean) / stdev
 
+---
+
 ### Signal Use Case
 
 The SDCA engine is not intended for short-term trading.  
@@ -34,6 +36,7 @@ stdevs = array.stdev(MCap)
 MVRVvaluation = (MC - MCR) / stdevs
 MVRVZ = rescale(MVRVvaluation, -0.25, 6.85, 2.5, -2.5)
 
+---
 
 ### DCA Valuation Zones
 
@@ -53,6 +56,8 @@ else if avg > -2
     interpretation := "Moderately Overvalued"
 else
     interpretation := "Strongly Overvalued"
+
+---
 
 ### Quantitative Features Demonstrated
 
