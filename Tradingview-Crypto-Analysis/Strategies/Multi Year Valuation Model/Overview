@@ -1,1 +1,19 @@
+Multi-Year Bitcoin Valuation Model
 
+Date: 10 March 2026
+
+Overview
+
+This model is designed to evaluate Bitcoin’s long-term market valuation using a combination of on-chain metrics, statistical indicators, and cycle-based models. The objective is not short-term trading but identifying multi-year accumulation and distribution zones for long-term investors.
+
+The visualization overlays a valuation heatmap onto the Bitcoin price chart. The color gradient represents historical valuation conditions:
+
+Green zones represent periods where Bitcoin has historically been undervalued and favorable for long-term accumulation.
+
+Red zones represent historically overheated market conditions where risk increases and long-term investors may consider reducing exposure.
+
+The model focuses on multi-year investment horizons, helping identify periods where the risk-reward profile historically favored buy-and-hold strategies.
+
+Beyond the valuation heatmap, the chart also incorporates additional technical context such as market structure and divergence signals that can provide further insight into cycle behavior.
+
+At present, the model indicates that Bitcoin remains within a historically attractive accumulation zone, suggesting strong long-term value conditions for gradual capital allocation.
