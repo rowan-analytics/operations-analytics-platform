@@ -60,3 +60,42 @@ Signals are only triggered when price moves beyond configurable **upper or lower
 A **smoothed RMA baseline combined with ATR deviation** is used to determine whether price has moved meaningfully away from its mean.
 
 **Bullish condition**
+**Bearish condition**
+
+
+This filter ensures signals only occur when **price deviates materially from its smoothed mean**, reducing false signals during consolidation.
+
+---
+
+## Percentile Momentum Filter
+
+Momentum is evaluated using **rolling percentile thresholds**.
+
+The model measures whether price exceeds:
+
+- **75th percentile expansion** for bullish momentum
+- **25th percentile breakdown** for bearish momentum
+
+Using percentiles helps detect **statistically significant directional expansion** rather than simple breakout events.
+
+---
+
+## Volatility Confirmation
+
+To further reduce noise, the model enforces a **minimum Bollinger Band width requirement**.
+
+Signals are only generated when **volatility expands beyond a defined threshold**, preventing signals during tight ranging conditions.
+
+---
+
+# Model Objective
+
+Tri-State Momentum is designed to **separate high-conviction directional regimes from low-quality market environments**.
+
+This allows traders and systematic models to:
+
+- Increase exposure during **risk-on momentum phases**
+- Reduce exposure during **risk-off regimes**
+- Preserve capital during **neutral consolidation periods**
+
+By combining **trend deviation, volatility expansion, and percentile momentum filters**, the model aims to improve **risk-adjusted performance while reducing exposure to overfit signals**.
