@@ -47,26 +47,3 @@ The project is built on a relational data model representing a logistics workflo
 
 The model supports end-to-end tracking from order creation through to delivery and post-delivery analysis.
 
-![Data Model](assets/erd.png)
-
----
-
-## 🗂️ Project Structure
-
-```bash
-logistics-operations-reporting-automation/
-│
-├── data/
-├── sql/
-│   ├── 01_schema.sql
-│   ├── 02_sample_data.sql
-│   ├── 03_data_cleaning.sql
-│   ├── 04_core_queries.sql
-│   ├── 05_views.sql
-│   ├── 06_reporting_tables.sql
-│   ├── 07_automation_procedures.sql
-│   └── 08_validation_checks.sql
-│
-├── powerbi/
-├── docs/
-└── assets/
