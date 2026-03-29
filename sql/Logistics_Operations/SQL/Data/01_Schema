@@ -1,5 +1,0 @@
-This schema models a logistics operations system used to support SQL-driven reporting and automation. It covers the full lifecycle of an order, including customer activity, product demand, warehouse inventory, shipment delivery, and returns.
-
-The design enables automated KPI reporting, delivery exception monitoring, inventory alerting, and carrier performance analysis, forming the foundation for downstream Power BI dashboards.
-
-
