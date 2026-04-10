@@ -1,177 +1,120 @@
-# 🚀 Operations & Market Analytics Platform
+# 📊 Analytics & Market Strategy Platform
 
 ## Overview
 
-This repository showcases an **end-to-end analytics platform** built to analyse:
+This repository showcases a portfolio of projects across:
 
-* 📦 **Retail & Logistics Operations**
-* 🛒 **E-commerce Performance**
-* 🌐 **DeFi Liquidity & Market Structure**
-* 📈 **Quantitative Market Behaviour**
+* 📦 **Operations & Commercial Analytics**
+* 🌐 **DeFi & Market Structure Analysis**
+* 📈 **Quantitative Models & Trading Systems**
+* ⚙️ **End-to-End Data Workflows (SQL, Python, Power BI)**
 
-The focus is not just on reporting data, but on **explaining why performance changes and where opportunities exist**.
+The focus is not just analysing data — but understanding:
+
+> **What drives performance, where capital flows, and how to allocate effectively.**
+
+---
+
+## 🧠 Core Focus
 
 Across all projects, the goal is consistent:
 
-> Turn raw data into **decision-ready insights** using SQL, Python and Power BI.
+* Move beyond reporting → identify **performance drivers**
+* Apply **quantitative thinking** to both business and markets
+* Translate data into **decision-ready insights**
+* Connect **data → structure → action → outcome**
 
 ---
 
-## 🧠 What This Platform Demonstrates
+## 📊 Selected Work
 
-* Building **automated data pipelines** from raw → processed → insights
-* Analysing **business performance drivers**, not just surface metrics
-* Applying **quantitative thinking to markets and operations**
-* Translating data into **clear, executive-level insights**
+### 📈 Portfolio & Market Analysis
 
----
+* Built a **portfolio performance framework** tracking:
 
-## 🛠️ Tools & Technologies
+  * returns, drawdown, Sharpe, Sortino, beta
+* Applied **regime-based allocation** (risk-on / neutral / risk-off)
+* Demonstrated how **exposure management drives returns**, not just asset selection
+* Integrated **market context, risk, and positioning into reporting**
 
-* **SQL** – KPI pipelines, aggregation, reporting layers
-* **Python** – time-series analysis, feature engineering, data processing
-* **Power BI** – interactive dashboards and business reporting
-* **ETL Workflows** – structured data transformation and validation
-* **APIs (DeFiLlama, Yahoo Finance)** – real-world data sourcing
-* **TradingView (Pine Script)** – quantitative indicator development
+👉 Focus: **capital allocation, risk management, performance attribution**
 
 ---
 
-## 📊 Core Projects & Insights
+### 🌐 DeFi Liquidity & Market Structure
 
----
+* Analysed **TVL, capital flows, and chain dominance**
+* Identified strong **BTC ↔ liquidity correlation (~0.85)**
+* Highlighted how **macro conditions drive DeFi growth**
 
-### 📦 Retail & E-commerce Analytics
-
-Analysis of **sales performance, customer behaviour, product mix and geographic trends**.
-
-**Key Insights:**
-
-* Revenue is **highly concentrated** across a small number of customers and products
-* **Top 10 customers generate >40% of total revenue**
-* Product performance follows a **long-tail distribution**
-* Strong **seasonality**, with revenue peaking in November
-* Geographic performance shows **heavy reliance on a single core market (UK)**
-
-**Impact:**
-
-* Identifies **concentration risk** and growth opportunities
-* Supports **pricing, product, and customer strategy decisions**
+👉 Focus: **where money is moving and why**
 
 ---
 
 ### 🚚 Logistics Operations Analytics
 
-Analysis of **delivery performance, regional efficiency and operational bottlenecks**.
+* Identified that ~**49% of deliveries were late**
+* Isolated **delivery duration as the main driver**
+* Highlighted regional inefficiencies and performance gaps
 
-**Key Insights:**
-
-* ~**49% of deliveries are late**, indicating systemic inefficiencies
-* Certain regions consistently underperform
-* **Delivery duration is the primary driver of delays**
-* High volume does not always equal high performance
-
-**Impact:**
-
-* Highlights **root causes of inefficiency**
-* Enables **operational optimisation and SLA improvements**
+👉 Focus: **turning data into operational decisions**
 
 ---
 
-### 🌐 DeFi Liquidity & Market Analysis
+### 📦 Retail & E-commerce Analytics
 
-Quantitative analysis of **on-chain liquidity, capital flows and market structure**.
+* Analysed **revenue concentration, customer behaviour, product mix**
+* Found **top 10 customers drive >40% of revenue**
+* Identified **seasonality and geographic dependency**
 
-**Key Insights:**
-
-* Liquidity is **highly dynamic**, rotating across ecosystems
-* Ethereum maintains ~**80% dominance** of DeFi liquidity
-* Strong **correlation (~0.85)** between BTC price and DeFi TVL
-* DeFi growth is largely driven by **macro market conditions**, not isolated adoption
-
-**Impact:**
-
-* Demonstrates understanding of **capital flow dynamics**
-* Applies **data analysis to financial markets and crypto ecosystems**
+👉 Focus: **commercial performance and risk**
 
 ---
 
-### 📈 Quantitative Trading & Market Signals
+### 📉 Quantitative Models & Indicators
 
-Development of **TradingView indicators and regime-based analysis models**.
+* Developed **TradingView indicators** and regime models
+* Built **volatility-adjusted momentum frameworks**
+* Focused on **market regimes over prediction**
 
-**Focus:**
-
-* Market regime classification (risk-on / neutral / risk-off)
-* Volatility-adjusted momentum signals
-* Distribution-based thresholds for cross-asset consistency
-
-**Key Insight:**
-
-* Market conditions are better understood through **regime classification**, not directional prediction
-* **Volatility and liquidity conditions drive performance more than price alone**
-
-**Impact:**
-
-* Shows ability to apply **quantitative thinking to real market data**
-* Bridges **data analytics and trading strategy design**
+👉 Focus: **structure, not signals**
 
 ---
 
-## ⚙️ Key Capabilities
+## ⚙️ Tools & Stack
 
-* Automated KPI reporting (revenue, orders, delivery performance)
-* Time-series trend and seasonality analysis
-* Customer and product segmentation
-* Market structure and liquidity analysis
-* Correlation and quantitative modelling
-* Dashboard development for executive decision-making
-
----
-
-## 🗂️ Repository Structure
-
-```bash
-operations-analytics-platform/
-│
-├── retail_sales/        # E-commerce analytics (customers, products, sales)
-├── logistics/           # Operations and delivery performance
-├── defi_liquidity/      # On-chain data and market analysis
-├── tradingview/         # Quant indicators and models
-│
-├── sql/                 # Reporting pipelines and queries
-├── python/              # Data processing and analysis
-├── powerbi/             # Dashboard outputs
-└── README.md
-```
+* **SQL** – data pipelines, KPI reporting
+* **Python** – time-series, modelling, analysis
+* **Power BI** – dashboards and reporting
+* **APIs** – DeFiLlama, Yahoo Finance
+* **TradingView (Pine Script)** – quantitative models
 
 ---
 
-## 💼 Business Value
+## 🧠 What This Portfolio Shows
 
-This platform is designed to reflect how analytics is used in real organisations:
-
-* 📊 **Faster, automated reporting pipelines**
-* 🎯 **Clear identification of performance drivers**
-* ⚠️ **Detection of risks (customer, product, market concentration)**
-* 📈 **Data-driven decision support for operations and strategy**
+* Ability to analyse **both business operations and financial markets**
+* Strong understanding of **risk, allocation, and performance drivers**
+* Experience building **end-to-end analytics workflows**
+* Focus on **insight → decision → impact**, not just output
 
 ---
 
 ## 🎯 Positioning
 
-This portfolio is built to demonstrate capability in:
+This portfolio is designed for roles in:
 
-* **Data Analytics (SQL, Python, BI)**
-* **Operations & Commercial Analysis**
-* **Marketplace / E-commerce Analytics (Shopee-style roles)**
-* **Quantitative & Financial Data Analysis**
+* **Data Analyst (Commercial / Product / Ops)**
+* **Market / Investment Analyst**
+* **Crypto / Quant Research**
+* **Strategy & Analytics Roles**
 
 ---
 
 ## 👤 Author
 
 **Rowan Tangye**
-Data Analyst | SQL • Python • Power BI • Market Analytics
+Data Analyst | Market Analytics | Quantitative Thinking
 
-Portfolio focused on **real-world analytics workflows, business impact, and quantitative thinking**
+Focused on **performance, risk, and capital allocation through data**
+
